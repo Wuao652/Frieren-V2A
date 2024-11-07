@@ -131,7 +131,7 @@ For other metrics, please refer to [audioldm-eval](https://github.com/haoheliu/a
 ### Training from scratch
 
 1. Prepare training data. Let `${DATA_ROOT}/vggsound` be the dataset root.
-   * Put `data/Train.txt` and `data/Test.txt` in ``${DATA_ROOT}/vggsound/split_txt`
+   * Put `data/Train.txt` and `data/Test.txt` in `${DATA_ROOT}/vggsound/split_txt`
    * Put extracted spectrograms in `${DATA_ROOT}/vggsound/mel`
    * Put cavp features in `${DATA_ROOT}/vggsound/cavp`
 
