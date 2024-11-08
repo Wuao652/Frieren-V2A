@@ -4,9 +4,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2406.00320) [![Demo](https://img.shields.io/badge/GitHub.io-Audio_Samples-blue.svg?logo=Github)](https://frieren-v2a.github.io/)  
 
-This is the PyTorch implementation of Frieren (NeurIPS'24), an transformer-based non-autoregressive video-to-audio generation model with rectified flow matching. 
-
-We have organized and refactored the original experimental code, and its correctness has not yet been fully verified. Feel free to create an issue if you find any problem.
+This is the PyTorch implementation of Frieren (NeurIPS'24), a transformer-based non-autoregressive video-to-audio generation model with rectified flow matching. 
 
 ## Pretrained checkpoints and 25-step generated results
 
@@ -200,5 +198,12 @@ If you find this code useful in your research, please cite our work:
   author={Wang, Yongqi and Guo, Wenxiang and Huang, Rongjie and Huang, Jiawei and Wang, Zehan and You, Fuming and Li, Ruiqi and Zhao, Zhou},
   journal={arXiv preprint arXiv:2406.00320},
   year={2024}
+}
+
+@article{huang2023make,
+  title={Make-an-audio: Text-to-audio generation with prompt-enhanced diffusion models},
+  author={Huang, Rongjie and Huang, Jiawei and Yang, Dongchao and Ren, Yi and Liu, Luping and Li, Mingze and Ye, Zhenhui and Liu, Jinglin and Yin, Xiang and Zhao, Zhou},
+  journal={arXiv preprint arXiv:2301.12661},
+  year={2023}
 }
 ```
