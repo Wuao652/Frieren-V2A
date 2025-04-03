@@ -194,9 +194,11 @@ Part of the code is borrowed from the following repos. We would like to thank th
 If you find this code useful in your research, please cite our work:
 ```bib
 @article{wang2024frieren,
-  title={Frieren: Efficient Video-to-Audio Generation with Rectified Flow Matching},
+  title={Frieren: Efficient video-to-audio generation network with rectified flow matching},
   author={Wang, Yongqi and Guo, Wenxiang and Huang, Rongjie and Huang, Jiawei and Wang, Zehan and You, Fuming and Li, Ruiqi and Zhao, Zhou},
-  journal={arXiv preprint arXiv:2406.00320},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={128118--128138},
   year={2024}
 }
 
