@@ -43,7 +43,7 @@ model:
       params:
         embed_dim: 20
         monitor: val/rec_loss
-        ckpt_path: ckpt/trainae/ckpt/epoch=000032.ckpt
+        ckpt_path: /work/pi_gvanhorn_umass_edu/ckpts/img2sound/frieren/vae.ckpt
         ddconfig:
           double_z: true
           in_channels: 80

@@ -11,7 +11,7 @@ import soundfile as sf
 from tqdm import tqdm
 from omegaconf import OmegaConf
 
-sys.path.append(os.path.join("/".join(os.getcwd().split("/")[:-1]), "Frieren"))
+# sys.path.append(os.path.join("/".join(os.getcwd().split("/")[:-1]), "Frieren"))
 from cfm.util import instantiate_from_config
 
 

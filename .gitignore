@@ -1,0 +1,4 @@
+# Ignore all Python cache files and directories
+__pycache__/
+*.py[cod]
+*$py.class
